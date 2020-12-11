@@ -5,8 +5,9 @@
 ## [Unreleased]
 ### Changed
 - Dependencies - upgrade `org.jetbrains.intellij` to `0.6.5`
+- Updated the base platform version to 2020.1
 
-## [v0.1-beta]
+## [0.1.0-beta]
 ### Added
 - Initial scaffold created from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
 - Loaded source code from [PHP @inheritDoc plugin for PhpStorm](https://github.com/thanosp/phpstorm-inheritdoc) by [thanosp](https://github.com/thanosp)
