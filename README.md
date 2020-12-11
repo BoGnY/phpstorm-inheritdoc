@@ -1,17 +1,8 @@
 # PHP @inheritDoc plugin for PhpStorm
 
 ![Build](https://github.com/BoGnY/phpstorm-inheritdoc/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
-
-## Template ToDo list
-- [x] Create a new [IntelliJ Platform Plugin Template][template] project.
-- [ ] Verify the [pluginGroup](/gradle.properties), [plugin ID](/src/main/resources/META-INF/plugin.xml) and [sources package](/src/main/java).
-- [ ] Review the [Legal Agreements](https://plugins.jetbrains.com/docs/marketplace/legal-agreements.html).
-- [ ] [Publish a plugin manually](https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/publishing_plugin.html) for the first time.
-- [ ] Set the Plugin ID in the above README badges.
-- [ ] Set the [Deployment Token](https://plugins.jetbrains.com/docs/marketplace/plugin-upload.html).
-- [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.
+[![Version](https://img.shields.io/jetbrains/plugin/v/15560.svg)](https://plugins.jetbrains.com/plugin/15560)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/15560.svg)](https://plugins.jetbrains.com/plugin/15560)
 
 <!-- Plugin description -->
 PHP @inheritDoc plugin for PhpStorm / IntelliJ Idea Ultimate.
@@ -26,7 +17,7 @@ Original work by thanosp:
 
 Improvements:
 - Converted plugin build system to Gradle Kotlin build script
-- Updated compatibility with PhpStorm / IntelliJ Idea version 2020.1.X and 2020.2.X
+- Updated compatibility with PhpStorm / IntelliJ Idea Ultimate version 2020.1.X / 2020.2.X / 2020.3
 - Fixed wrong visualization of new line (now PhpDoc inherited new line are displayed correctly in one line)
 <!-- Plugin description end -->
 
