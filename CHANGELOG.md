@@ -6,7 +6,8 @@
 ### Changed
 - Dependencies - upgrade `org.jetbrains.intellij` to `0.6.5`
 - Updated the base platform version to 2020.1
-- Simpler syntax for configuring KotlinCompile
+- Simpler syntax for configuring `KotlinCompile`
+- Dependencies - upgrade `org.jetbrains.kotlin.jvm` to `1.4.21`
 
 ## [0.1.0-beta]
 ### Added
