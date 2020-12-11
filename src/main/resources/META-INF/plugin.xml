@@ -1,19 +1,23 @@
 <idea-plugin>
-    <id>com.github.bogny.phpstorminheritdoc</id>
+    <id>dev.bogny.phpstorm.inheritdoc</id>
     <name>phpstorm-inheritdoc</name>
-    <vendor>bogny</vendor>
+    <vendor email="admin@bogny.eu" url="https://github.com/bogny/phpstorm-inheritdoc">BoGnY</vendor>
 
     <!-- Product and plugin compatibility requirements -->
     <!-- https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html -->
+    <depends>com.jetbrains.php</depends>
     <depends>com.intellij.modules.platform</depends>
+    <!--depends>com.intellij.modules.ultimate</depends-->
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.bogny.phpstorminheritdoc.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.bogny.phpstorminheritdoc.services.MyProjectService"/>
+        <localInspection groupPath="PHP"
+                         groupName="PHPDoc"
+                         displayName="Missing @inheritDoc"
+                         shortName="MissingInheritDocInspection"
+                         level="INFORMATION"
+                         enabledByDefault="true"
+                         implementationClass="dev.bogny.phpstorm.inheritdoc.MissingInheritDocInspection"/>
+        <lang.foldingBuilder language="PHP"
+                             implementationClass="dev.bogny.phpstorm.inheritdoc.InheritDocFoldingBuilder"/>
     </extensions>
-
-    <applicationListeners>
-        <listener class="com.github.bogny.phpstorminheritdoc.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
 </idea-plugin>

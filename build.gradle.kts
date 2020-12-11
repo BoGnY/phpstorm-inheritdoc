@@ -43,6 +43,7 @@ repositories {
     mavenCentral()
     jcenter()
 }
+
 dependencies {
     detektPlugins("io.gitlab.arturbosch.detekt:detekt-formatting:1.14.2")
 }
@@ -79,6 +80,7 @@ tasks {
         sourceCompatibility = "1.8"
         targetCompatibility = "1.8"
     }
+
     listOf("compileKotlin", "compileTestKotlin").forEach {
         getByName<KotlinCompile>(it) {
             kotlinOptions.jvmTarget = "1.8"

@@ -1,4 +1,4 @@
-# phpstorm-inheritdoc
+# PHP @inheritDoc plugin for PhpStorm
 
 ![Build](https://github.com/BoGnY/phpstorm-inheritdoc/workflows/Build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
@@ -6,7 +6,7 @@
 
 ## Template ToDo list
 - [x] Create a new [IntelliJ Platform Plugin Template][template] project.
-- [ ] Verify the [pluginGroup](/gradle.properties), [plugin ID](/src/main/resources/META-INF/plugin.xml) and [sources package](/src/main/kotlin).
+- [ ] Verify the [pluginGroup](/gradle.properties), [plugin ID](/src/main/resources/META-INF/plugin.xml) and [sources package](/src/main/java).
 - [ ] Review the [Legal Agreements](https://plugins.jetbrains.com/docs/marketplace/legal-agreements.html).
 - [ ] [Publish a plugin manually](https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/publishing_plugin.html) for the first time.
 - [ ] Set the Plugin ID in the above README badges.
@@ -14,11 +14,20 @@
 - [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.
 
 <!-- Plugin description -->
-This Fancy IntelliJ Platform Plugin is going to be your implementation of the brilliant ideas that you have.
+PHP @inheritDoc plugin for PhpStorm / IntelliJ Idea Ultimate.
 
-This specific section is a source for the [plugin.xml](/src/main/resources/META-INF/plugin.xml) file which will be extracted by the [Gradle](/build.gradle.kts) during the build process.
+Based on [PHP @inheritDoc plugin for PhpStorm][origin-source] by [thanosp](https://github.com/thanosp).
 
-To keep everything working, do not remove `<!-- ... -->` sections. 
+Original work by thanosp:
+- Folds `{@inheritDoc}` tags and shows the inherited text instead
+- Can suggest adding `{@inheritDoc}` if a docblock is missing, but a parent doc is found
+- Can suggest replacing the docblock with `{@inheritDoc}` if a docblock found not using `{@inheritDoc}`
+- Provides `{@inheritDoc}` code inspection
+
+Improvements:
+- Converted plugin build system to Gradle Kotlin build script
+- Updated compatibility with PhpStorm / IntelliJ Idea version 2020.1.X and 2020.2.X
+- Fixed wrong visualization of new line (now PhpDoc inherited new line are displayed correctly in one line)
 <!-- Plugin description end -->
 
 ## Installation
@@ -33,8 +42,8 @@ To keep everything working, do not remove `<!-- ... -->` sections.
   Download the [latest release](https://github.com/BoGnY/phpstorm-inheritdoc/releases/latest) and install it manually using
   <kbd>Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
 
-
 ---
 Plugin based on the [IntelliJ Platform Plugin Template][template].
 
 [template]: https://github.com/JetBrains/intellij-platform-plugin-template
+[origin-source]: https://github.com/thanosp/phpstorm-inheritdoc
