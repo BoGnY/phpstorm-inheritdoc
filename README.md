@@ -19,6 +19,7 @@ Improvements:
 - Converted plugin build system to Gradle Kotlin build script
 - Updated compatibility with PhpStorm / IntelliJ Idea Ultimate version 2020.1.X / 2020.2.X / 2020.3
 - Fixed wrong visualization of new line (now PhpDoc inherited new line are displayed correctly in one line)
+- Added plugin icon
 <!-- Plugin description end -->
 
 ## Installation

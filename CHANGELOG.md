@@ -3,6 +3,9 @@
 # PHP @inheritDoc plugin for PhpStorm
 
 ## [Unreleased]
+### Added
+- Added plugin icon
+
 ### Changed
 - Dependencies - upgrade `org.jetbrains.intellij` to `0.6.5`
 - Updated the base platform version to 2020.1
@@ -17,4 +20,6 @@
 ### Changed
 - Converted plugin build system to Gradle Kotlin build script
 - Updated compatibility with PhpStorm / IntelliJ Idea Ultimate version 2020.1.X / 2020.2.X / 2020.3
+
+### Fixed
 - Fixed wrong visualization of new line (now PhpDoc inherited new line are displayed correctly in one line)
