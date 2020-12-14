@@ -4,7 +4,7 @@
 
 ## [Unreleased]
 
-## [0.2.0]
+## [v0.2.0]
 ### Added
 - Added plugin icon
 
@@ -14,7 +14,7 @@
 - Simpler syntax for configuring `KotlinCompile`
 - Dependencies - upgrade `org.jetbrains.kotlin.jvm` to `1.4.21`
 
-## [0.1.0-beta]
+## [v0.1.0-beta]
 ### Added
 - Initial scaffold created from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
 - Loaded source code from [PHP @inheritDoc plugin for PhpStorm](https://github.com/thanosp/phpstorm-inheritdoc) by [thanosp](https://github.com/thanosp)
