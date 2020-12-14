@@ -3,6 +3,8 @@
 # PHP @inheritDoc plugin for PhpStorm
 
 ## [Unreleased]
+
+## [0.2.0]
 ### Added
 - Added plugin icon
 
