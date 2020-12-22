@@ -11,6 +11,7 @@
 - Dependencies - upgrade `detekt-formatting` to `1.15.0`
 - Dependencies - upgrade `io.gitlab.arturbosch.detekt` to `1.15.0`
 - `pluginVerifierIdeVersions` - upgrade to `2020.1.4, 2020.2.3, 2020.3.1`
+- Changed plugin icon (based on [PhpDoc](https://phpdoc.org) icon)
 
 ## [0.2.0]
 ### Added
