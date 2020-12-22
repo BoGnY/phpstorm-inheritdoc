@@ -6,6 +6,9 @@
 ### Added
 - Dependabot integration
 
+### Changed
+- `pluginVerifierIdeVersions` - upgrade to `2020.1.4, 2020.2.3, 2020.3.1`
+
 ## [0.2.0]
 ### Added
 - Added plugin icon
