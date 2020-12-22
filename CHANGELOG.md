@@ -3,6 +3,8 @@
 # PHP @inheritDoc plugin for PhpStorm
 
 ## [Unreleased]
+### Added
+- Dependabot integration
 
 ## [0.2.0]
 ### Added
