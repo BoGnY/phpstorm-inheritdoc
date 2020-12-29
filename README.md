@@ -7,7 +7,7 @@
 <!-- Plugin description -->
 PHP @inheritDoc plugin for PhpStorm / IntelliJ Idea Ultimate.
 
-Based on [PHP @inheritDoc plugin for PhpStorm][origin-source] by [thanosp](https://github.com/thanosp).
+Based on <a href="https://github.com/thanosp/phpstorm-inheritdoc">PHP @inheritDoc plugin for PhpStorm</a> by <a href="https://github.com/thanosp">thanosp</a>.
 
 Original work by thanosp:
 - Folds `{@inheritDoc}` tags and shows the inherited text instead
@@ -38,4 +38,3 @@ Improvements:
 Plugin based on the [IntelliJ Platform Plugin Template][template].
 
 [template]: https://github.com/JetBrains/intellij-platform-plugin-template
-[origin-source]: https://github.com/thanosp/phpstorm-inheritdoc

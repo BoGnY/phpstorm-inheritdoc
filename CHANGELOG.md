@@ -3,17 +3,9 @@
 # PHP @inheritDoc plugin for PhpStorm
 
 ## [Unreleased]
-### Added
-
 ### Changed
+- Use html tag instead markdown on plugin description
 
-### Deprecated
-
-### Removed
-
-### Fixed
-
-### Security
 ## [0.3.0]
 ### Added
 - Dependabot integration
