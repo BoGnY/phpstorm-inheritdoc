@@ -12,6 +12,7 @@
 - Dependencies - upgrade `org.jetbrains.kotlin.jvm` to `1.4.32`
 - GitHub Actions: Use the correct property in the "Upload artifact" step
 - Update links to SDK Docs
+- Configure the `changelog` Gradle plugin
 
 ## [0.3.0]
 ### Added
