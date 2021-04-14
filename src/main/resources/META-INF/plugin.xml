@@ -4,7 +4,7 @@
     <vendor email="admin@bogny.eu" url="https://github.com/bogny/phpstorm-inheritdoc">BoGnY</vendor>
 
     <!-- Product and plugin compatibility requirements -->
-    <!-- https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html -->
+    <!-- https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
     <depends>com.jetbrains.php</depends>
     <depends>com.intellij.modules.platform</depends>
     <!--depends>com.intellij.modules.ultimate</depends-->

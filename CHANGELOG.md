@@ -5,6 +5,13 @@
 ## [Unreleased]
 ### Changed
 - Use html tag instead markdown on plugin description
+- Dependencies - upgrade `org.jlleitschuh.gradle.ktlint` to `10.0.0`
+- Dependencies - upgrade `org.jetbrains.changelog` to `1.1.2`
+- Dependencies - upgrade `org.jetbrains.intellij` to `0.7.2`
+- Dependencies - upgrade `io.gitlab.arturbosch.detekt` to `1.16.0`
+- Dependencies - upgrade `org.jetbrains.kotlin.jvm` to `1.4.32`
+- GitHub Actions: Use the correct property in the "Upload artifact" step
+- Update links to SDK Docs
 
 ## [0.3.0]
 ### Added
