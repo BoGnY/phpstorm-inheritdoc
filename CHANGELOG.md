@@ -16,6 +16,7 @@
 - GitHub Actions: Use the correct property in the "Upload artifact" step
 - Update links to SDK Docs
 - Configure the `changelog` Gradle plugin
+- Fixed plugin version property name
 
 ## [0.3.0]
 ### Added
