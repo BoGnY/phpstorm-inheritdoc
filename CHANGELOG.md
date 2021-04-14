@@ -3,6 +3,9 @@
 # PHP @inheritDoc plugin for PhpStorm
 
 ## [Unreleased]
+### Added
+- `properties` shorthand function for accessing `gradle.properties` in a cleaner way
+
 ### Changed
 - Use html tag instead markdown on plugin description
 - Dependencies - upgrade `org.jlleitschuh.gradle.ktlint` to `10.0.0`
