@@ -19,6 +19,7 @@
 - Fixed plugin version property name
 - Dependabot check for GitHub Actions used in [workflow files](.github/workflows)
 - Dependencies (GitHub Actions) - upgrade `actions/cache` to `v2.1.4`
+- Dependencies (GitHub Actions) - upgrade `actions/upload-artifact` to `v2.2.2`
 
 ## [0.3.0]
 ### Added
