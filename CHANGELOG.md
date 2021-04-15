@@ -18,6 +18,7 @@
 - Configure the `changelog` Gradle plugin
 - Fixed plugin version property name
 - Dependabot check for GitHub Actions used in [workflow files](.github/workflows)
+- Dependencies (GitHub Actions) - upgrade `actions/cache` to `v2.1.4`
 
 ## [0.3.0]
 ### Added
