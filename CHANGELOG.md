@@ -21,6 +21,7 @@
 - Dependencies (GitHub Actions) - upgrade `actions/cache` to `v2.1.5`
 - Dependencies (GitHub Actions) - upgrade `actions/upload-artifact` to `v2.2.3`
 - Dependencies (GitHub Actions) - upgrade `actions/setup-java` to `v2`
+- Update `pluginVerifierIdeVersions` to `2020.1.4, 2020.2.4, 2020.3.3, 2021.1`
 
 ### Fixed
 - Fix `README.md` file resolution in the `build.gradle.kts`
