@@ -17,6 +17,7 @@
 - Update links to SDK Docs
 - Configure the `changelog` Gradle plugin
 - Fixed plugin version property name
+- Dependabot check for GitHub Actions used in [workflow files](.github/workflows)
 
 ## [0.3.0]
 ### Added
