@@ -21,6 +21,9 @@
 - Dependencies (GitHub Actions) - upgrade `actions/cache` to `v2.1.4`
 - Dependencies (GitHub Actions) - upgrade `actions/upload-artifact` to `v2.2.2`
 
+### Fixed
+- Fix `README.md` file resolution in the `build.gradle.kts`
+
 ## [0.3.0]
 ### Added
 - Dependabot integration
