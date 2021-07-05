@@ -16,6 +16,7 @@
 - Dependencies (GitHub Actions) - upgrade `actions/create-release` to `v1.1.4`
 - Dependencies (GitHub Actions) - upgrade `actions/cache` to `v2.1.6`
 - Upgrade Gradle Wrapper to `7.1.1`
+- Trigger GitHub Actions `Build` workflows only on pushes to `main` branch or pull request to avoid duplicated checks
 
 ## [0.4.0]
 ### Added
