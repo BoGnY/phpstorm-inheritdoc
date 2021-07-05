@@ -9,6 +9,7 @@
 - Use Gradle `wrapper` task to handle Gradle updates
 
 ### Changed
+- Remove reference to the `jcenter()` from Gradle configuration file
 - Dependencies - upgrade `org.jetbrains.kotlin.jvm` to `1.5.0`
 - Dependencies - upgrade `detekt-formatting` to `1.17.1`
 - Dependencies - upgrade `io.gitlab.arturbosch.detekt` to `1.17.1`
