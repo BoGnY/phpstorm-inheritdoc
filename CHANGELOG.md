@@ -7,6 +7,14 @@
 - Use Gradle `wrapper` task to handle Gradle updates
 
 ### Changed
+- Dependencies - upgrade `org.jetbrains.kotlin.jvm` to `1.5.0`
+- Dependencies - upgrade `detekt-formatting` to `1.17.1`
+- Dependencies - upgrade `io.gitlab.arturbosch.detekt` to `1.17.1`
+- Dependencies (GitHub Actions) - upgrade `actions/upload-release-asset` to `v1.0.2`
+- Dependencies (GitHub Actions) - upgrade `actions/upload-artifact` to `v2.2.4`
+- Dependencies (GitHub Actions) - upgrade `actions/checkout` to `v2.3.4`
+- Dependencies (GitHub Actions) - upgrade `actions/create-release` to `v1.1.4`
+- Dependencies (GitHub Actions) - upgrade `actions/cache` to `v2.1.6`
 - Upgrade Gradle Wrapper to `7.1.1`
 
 ## [0.4.0]
