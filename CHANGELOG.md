@@ -4,6 +4,10 @@
 
 ## [Unreleased]
 ### Added
+- Use Gradle `wrapper` task to handle Gradle updates
+
+### Changed
+- Upgrade Gradle Wrapper to `7.1.1`
 
 ## [0.4.0]
 ### Added

@@ -80,6 +80,11 @@ tasks {
         jvmTarget = "1.8"
     }
 
+    withType<Wrapper>().configureEach {
+        gradleVersion = properties("gradleVersion")
+        distributionType = Wrapper.DistributionType.ALL
+    }
+
     patchPluginXml {
         version(properties("pluginVersion"))
         sinceBuild(properties("pluginSinceBuild"))
