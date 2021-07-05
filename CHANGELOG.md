@@ -4,6 +4,7 @@
 
 ## [Unreleased]
 ### Added
+- Suppress `UnusedProperty` inspection for the `kotlin.stdlib.default.dependency` in `gradle.properties`
 - Use Gradle `wrapper` task to handle Gradle updates
 
 ### Changed
