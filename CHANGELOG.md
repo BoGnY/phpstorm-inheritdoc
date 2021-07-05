@@ -4,6 +4,9 @@
 
 ## [Unreleased]
 ### Added
+
+## [0.4.0]
+### Added
 - `properties` shorthand function for accessing `gradle.properties` in a cleaner way
 
 ### Changed
