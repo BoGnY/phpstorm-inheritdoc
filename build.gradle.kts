@@ -1,6 +1,7 @@
 import io.gitlab.arturbosch.detekt.Detekt
 import org.jetbrains.changelog.markdownToHTML
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+import org.jlleitschuh.gradle.ktlint.reporter.ReporterType
 
 fun properties(key: String) = project.findProperty(key).toString()
 
@@ -29,6 +30,11 @@ repositories {
 
 dependencies {
     detektPlugins("io.gitlab.arturbosch.detekt:detekt-formatting:1.17.1")
+    ktlint("com.pinterest:ktlint:0.41.0") {
+        attributes {
+            attribute(Bundling.BUNDLING_ATTRIBUTE, objects.named(Bundling.EXTERNAL))
+        }
+    }
 }
 
 // Configure gradle-intellij-plugin plugin.
@@ -61,6 +67,17 @@ detekt {
         html.enabled = false
         xml.enabled = false
         txt.enabled = false
+    }
+}
+
+ktlint {
+    version.set("0.41.0")
+    debug.set(true)
+    verbose.set(true)
+    ignoreFailures.set(true)
+    reporters {
+        reporter(ReporterType.PLAIN)
+        reporter(ReporterType.CHECKSTYLE)
     }
 }
 

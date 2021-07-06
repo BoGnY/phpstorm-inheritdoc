@@ -25,6 +25,9 @@
 - Gradle – Changelog plugin configuration update
 - Updated `build.gradle.kts` to be compatible with Gradle IntelliJ Plugin `v1.x`
 
+### Fixed
+- Fixed missing dependencies for `ktlint`
+
 ## [0.4.0]
 ### Added
 - `properties` shorthand function for accessing `gradle.properties` in a cleaner way
