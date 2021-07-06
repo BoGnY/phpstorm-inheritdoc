@@ -20,6 +20,8 @@
 - Dependencies (GitHub Actions) - upgrade `actions/cache` to `v2.1.6`
 - Upgrade Gradle Wrapper to `7.1.1`
 - Trigger GitHub Actions `Build` workflows only on pushes to `main` branch or pull request to avoid duplicated checks
+- Gradle – Changelog plugin configuration update
+- Updated `build.gradle.kts` to be compatible with Gradle IntelliJ Plugin `v1.x`
 
 ## [0.4.0]
 ### Added
