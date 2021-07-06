@@ -10,6 +10,8 @@
 
 ### Changed
 - Remove reference to the `jcenter()` from Gradle configuration file
+- Update `pluginVerifierIdeVersions` to `2020.1.4, 2020.2.4, 2020.3.4, 2021.1.3`
+- Change `pluginUntilBuild` to `212.*`
 - Dependencies - upgrade `org.jetbrains.kotlin.jvm` to `1.5.0`
 - Dependencies - upgrade `detekt-formatting` to `1.17.1`
 - Dependencies - upgrade `io.gitlab.arturbosch.detekt` to `1.17.1`
