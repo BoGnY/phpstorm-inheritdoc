@@ -30,7 +30,7 @@ repositories {
 
 dependencies {
     detektPlugins("io.gitlab.arturbosch.detekt:detekt-formatting:1.17.1")
-    ktlint("com.pinterest:ktlint:0.41.0") {
+    ktlint("com.pinterest:ktlint:0.42.0") {
         attributes {
             attribute(Bundling.BUNDLING_ATTRIBUTE, objects.named(Bundling.EXTERNAL))
         }
